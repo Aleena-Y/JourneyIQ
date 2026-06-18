@@ -1,19 +1,4 @@
 {
   "version": 2,
-  "outputDirectory": ".output/public",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": ".output/public" }
-    },
-    {
-      "src": ".output/server/index.mjs",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    { "src": "^/_static/(.*)", "dest": ".output/public/_static/$1" },
-    { "src": "^(.*)$", "dest": ".output/server/index.mjs" }
-  ]
+  "outputDirectory": ".vercel/output"
 }
