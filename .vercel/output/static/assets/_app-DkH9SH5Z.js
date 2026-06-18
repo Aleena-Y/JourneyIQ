@@ -1,0 +1,1 @@
+import{s as e}from"./link-DL5Ozg3F.js";import{t}from"./app-shell-u7g9pTVz.js";import{v as n}from"./index-BSFR_Wan.js";var r=e(),i=()=>(0,r.jsx)(t,{children:(0,r.jsx)(n,{})});export{i as component};

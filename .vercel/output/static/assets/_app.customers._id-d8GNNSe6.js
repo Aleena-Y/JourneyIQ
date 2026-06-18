@@ -1,0 +1,1 @@
+import{s as e,t}from"./link-DL5Ozg3F.js";var n=e(),r=()=>(0,n.jsxs)(`div`,{className:`py-20 text-center`,children:[(0,n.jsx)(`p`,{className:`text-sm text-muted-foreground`,children:`Customer not found.`}),(0,n.jsx)(t,{to:`/customers`,className:`mt-3 inline-block text-sm font-medium text-primary hover:underline`,children:`Back to customers`})]});export{r as notFoundComponent};

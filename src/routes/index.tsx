@@ -25,11 +25,11 @@ function Landing() {
             <a href="#product" className="hover:text-foreground">Product</a>
             <a href="#journey" className="hover:text-foreground">Journeys</a>
             <a href="#attribution" className="hover:text-foreground">Attribution</a>
-            <a href="#pricing" className="hover:text-foreground">Pricing</a>
-            <a href="#docs" className="hover:text-foreground">Docs</a>
+            <Link to="/pricing" className="hover:text-foreground">Pricing</Link>
+            <Link to="/docs" className="hover:text-foreground">Docs</Link>
           </nav>
           <div className="flex items-center gap-2">
-            <a href="#" className="hidden text-sm font-medium text-muted-foreground hover:text-foreground md:inline">Sign in</a>
+            <Link to="/signin" className="hidden text-sm font-medium text-muted-foreground hover:text-foreground md:inline">Sign in</Link>
             <Link
               to="/dashboard"
               className="inline-flex h-9 items-center rounded-lg bg-foreground px-3.5 text-sm font-medium text-background transition hover:opacity-90"
@@ -205,9 +205,9 @@ function Landing() {
           <Logo />
           <p>© 2026 JourneyIQ, Inc. All rights reserved.</p>
           <div className="flex gap-5">
-            <a href="#" className="hover:text-foreground">Privacy</a>
-            <a href="#" className="hover:text-foreground">Terms</a>
-            <a href="#" className="hover:text-foreground">Security</a>
+            <Link to="/privacy" className="hover:text-foreground">Privacy</Link>
+            <Link to="/terms" className="hover:text-foreground">Terms</Link>
+            <Link to="/security" className="hover:text-foreground">Security</Link>
           </div>
         </div>
       </footer>
@@ -270,9 +270,9 @@ function DashboardMock() {
             <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
               Mobile users in Bangalore show 24% higher cart abandonment — investigate Android checkout perf.
             </p>
-            <a href="#" className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-primary">
+            <Link to="/insights" className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-primary">
               Open insight <ArrowUpRight className="h-3 w-3" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
